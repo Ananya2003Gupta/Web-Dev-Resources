@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    background-color: #032F53;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #039383;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.center {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 13.5%;
+    margin-right: 8%;
+}
+
+.right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 13.5%;
+    margin-left: 8%;
+}
+
+.imagebox {
+    display: block;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-image: url("images/development.gif");
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    height: calc(100vh/3.8);
+    cursor: pointer;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    width: 18%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a :active {
+    text-decoration-color: white;
+}
+
+.container {
+    padding: 2px 8px;
+    background-color: #039383;
+    color: #FFFFFF;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+}
